@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Social Media Card</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        h3{
+            margin: 20px 0;
+            font-size: 40px;
+            text-align: center;
+        }
+        .container{
+            justify-content: space-between;            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: linear-gradient(to right, #87CEEB, #98FB98);
+        }
+        
+        .social-items{
+            margin: 5px 5px;
+            background-color: #98FB98;
+            padding: 50px 50px;
+            display:flex;
+            align-items: center;
+            width: 15rem;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            transition: all .5s;
+            box-shadow: 10px 10px 20px #00000073;
+            border-radius: 5px;
+        }
+        .social-items:hover{
+            box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
+            transform: scale(1.1);
+            /* border: 5px solid #3498db; */
+        }
+        img{
+            height: 80px;
+            width: 80px;
+            border-radius: 20px;
+        }
+        .heading{
+            font-size: 40px;
+            margin: 20px 10px;
+        }
+        .description{
+            color: rgb(5, 94, 23);
+            margin-bottom: 5px;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Social Media Profile</h3>
+    <div class="container">
+        
+
+        <div class="social-items">
+            <div class="item">
+
+                <img src="fb.jpeg" alt="">
+            </div>
+            <h2 class="heading">Facebook</h2>
+            <p class="description">Follow us on Facebook</p>
+        </div>
+
+            <div class="social-items">
+                <div class="item">
+
+                    <img src="insta.jpeg" alt="">
+                </div>
+                <h2 class="heading">Instagram</h2>
+                <p class="description">Follow us on Instagram</p>
+            </div>
+
+            <div class="social-items">
+                <div class="item">
+
+                    <img src="twitter.png" alt="">
+                </div>
+                <h2 class="heading">Twitter</h2>
+                <p class="description">Follow us on Twitter</p>
+            </div>
+
+            <div class="social-items">
+                <div class="item">
+
+                    <img src="youtube.jpeg" alt="">
+                </div>
+                <h2 class="heading">Youtube</h2>
+                <p class="description">Follow us on Youtube</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
